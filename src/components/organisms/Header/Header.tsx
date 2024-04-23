@@ -19,15 +19,18 @@ export const Header = () => {
           <Link href="#">A Organização</Link>
         </li>
         <li>
-          <Link href="#">Quero ser Voluntário(a)</Link>
+          <Link href="seja-voluntario">Quero ser Voluntário(a)</Link>
         </li>
         <li>
-          <Link href="#">Quero Doar</Link>
+          <Link href="/quero-doar">Quero Doar</Link>
         </li>
         <li>
-          <button className="bg-secondary p-4 text-sm text-black-100 md-5:p-3 md-5:text-xs">
+          <Link
+            href="/quero-adotar"
+            className="bg-secondary p-4 text-sm text-black-100 md-5:p-3 md-5:text-xs"
+          >
             Quero Adotar
-          </button>
+          </Link>
         </li>
       </ul>
     </header>
