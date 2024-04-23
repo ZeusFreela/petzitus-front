@@ -1,7 +1,14 @@
+'use client'
+import { ModalAdoptCard } from '@/components/atoms/ModalAdoptCard/ModalAdoptCard'
 import Image from 'next/image'
-import React from 'react'
+import React, { useState } from 'react'
 
 export const AdoptCard = () => {
+  const [isModalOpen, setIsModalOpen] = useState(false)
+
+  const handleButtonClick = () => {
+    setIsModalOpen(!isModalOpen)
+  }
   return (
     <section className="flex items-center justify-center gap-2 rounded-2xl bg-white-100 md-10:flex-col md-10:rounded-3xl">
       <Image
@@ -21,10 +28,14 @@ export const AdoptCard = () => {
           <li>Data de entrada: 24/05/2022</li>
           <li>Características: Bem ativo e carinhoso</li>
         </ul>
-        <button className="cursor-pointer rounded border-2 border-secondary bg-secondary p-1 font-semibold duration-300 hover:scale-105 md-9:text-sm">
+        <button
+          onClick={handleButtonClick}
+          className="cursor-pointer rounded border-2 border-secondary bg-secondary p-1 font-semibold duration-300 hover:scale-105 md-9:text-sm"
+        >
           Quero adotar!
         </button>
       </div>
+      {isModalOpen && <ModalAdoptCard />}
     </section>
   )
 }

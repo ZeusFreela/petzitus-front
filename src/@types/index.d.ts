@@ -12,3 +12,7 @@ export interface FoundersCardProps {
 export interface InputProps {
   placeholder: string
 }
+
+export interface InputAdoptFormProps {
+  placeholder: string
+}
