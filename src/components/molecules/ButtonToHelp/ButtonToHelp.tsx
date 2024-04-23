@@ -7,7 +7,7 @@ export const ButtonToHelp = ({ path, content }: ButtonToHelpProps) => {
     <>
       <Link
         href={path}
-        className="rounded-2xl bg-secondary px-8 py-3 text-2xl text-black-100"
+        className="md-5:text-xl md-7:text-base rounded-2xl bg-secondary px-8 py-3 text-2xl text-black-100"
       >
         {content}
       </Link>
