@@ -15,6 +15,7 @@ const config: Config = {
       'md-9': { max: '505px' },
       'md-9.1': { max: '475px' },
       'md-10': { max: '355px' },
+      'hg-1': { min: '1540px' },
     },
     extend: {
       colors: {
