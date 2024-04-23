@@ -7,6 +7,14 @@ const config: Config = {
     './src/app/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
+    screens: {
+      'md-5': { max: '980px' },
+      'md-6': { max: '800px' },
+      'md-7': { max: '715px' },
+      'md-8': { max: '605px' },
+      'md-9': { max: '505px' },
+      'md-10': { max: '355px' },
+    },
     extend: {
       colors: {
         primary: '#0075AB',
