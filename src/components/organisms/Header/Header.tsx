@@ -4,7 +4,7 @@ import React from 'react'
 
 export const Header = () => {
   return (
-    <header className="flex items-center justify-between px-24 py-4">
+    <header className="flex w-full items-center justify-between px-24 py-4">
       <Link href="/">
         <Image
           alt="Logo Petzitus"
@@ -25,7 +25,7 @@ export const Header = () => {
           <Link href="#">Quero Doar</Link>
         </li>
         <li>
-          <button className="bg-secondary text-black-100 p-4 text-sm">
+          <button className="bg-secondary p-4 text-sm text-black-100">
             Quero Adotar
           </button>
         </li>

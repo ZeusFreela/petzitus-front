@@ -3,7 +3,7 @@ import React from 'react'
 
 export const Hero = () => {
   return (
-    <section className="flex w-full items-center justify-center px-24 py-20">
+    <section className="flex w-full items-center justify-center px-24 py-16">
       <div className="flex w-1/2 flex-col items-start justify-center gap-4">
         <h1 className="text-6xl font-normal">A TURMA DO BAIRRO</h1>
         <p className="w-[77%]">
