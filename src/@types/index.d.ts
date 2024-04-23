@@ -8,3 +8,7 @@ export interface FoundersCardProps {
   name: string
   content: string
 }
+
+export interface InputProps {
+  placeholder: string
+}
