@@ -13,6 +13,7 @@ const config: Config = {
       'md-7': { max: '715px' },
       'md-8': { max: '605px' },
       'md-9': { max: '505px' },
+      'md-9.1': { max: '475px' },
       'md-10': { max: '355px' },
     },
     extend: {

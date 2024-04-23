@@ -20,9 +20,9 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="pt-BR" className="flex items-center justify-center">
+    <html lang="pt-BR">
       <body
-        className={`${outfit.className} flex max-w-7xl flex-col items-center justify-center`}
+        className={`${outfit.className} m-auto flex max-w-7xl flex-col items-center justify-center`}
       >
         <Header />
         {children}

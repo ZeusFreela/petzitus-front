@@ -3,11 +3,11 @@ import React from 'react'
 
 export const MeetTheFounders = () => {
   return (
-    <section className="md-5:px-20 md-6:px-10 md-7:px-4 flex w-full flex-col items-center justify-center gap-12 px-24 py-16">
-      <h1 className="md-5:text-4xl md-7:text-3xl md-10:text-center text-5xl ">
+    <section className="flex w-full flex-col items-center justify-center gap-12 px-24 py-16 md-5:px-20 md-6:px-10 md-7:px-4">
+      <h1 className="text-5xl md-5:text-4xl md-7:text-3xl md-10:text-center ">
         Conheça os Fundadores
       </h1>
-      <div className="md-8:flex-col md-8:gap-6 flex w-full items-center justify-between">
+      <div className="flex w-full items-center justify-between md-8:flex-col md-8:gap-6">
         <FoundersCard
           imgPath="/maisa.png"
           name="Maísa Almeida"

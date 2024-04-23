@@ -3,12 +3,12 @@ import React from 'react'
 
 export const About = () => {
   return (
-    <section className="md-5:px-20 md-6:px-10 md-7:px-4 flex w-full flex-col items-center justify-center gap-12 px-24 py-16">
-      <h1 className="md-5:text-4xl md-7:text-3xl md-10:text-center text-5xl">
+    <section className="flex w-full flex-col items-center justify-center gap-12 px-24 py-16 md-5:px-20 md-6:px-10 md-7:px-4">
+      <h1 className="text-5xl md-5:text-4xl md-7:text-3xl md-10:text-center">
         Conheça a História
       </h1>
-      <section className="md-8:flex-col-reverse md-8:gap-6 flex w-full items-center justify-center">
-        <div className="md-9:w-full flex w-1/2 flex-col items-center justify-center gap-6">
+      <section className="flex w-full items-center justify-center md-8:flex-col-reverse md-8:gap-6">
+        <div className="flex w-1/2 flex-col items-center justify-center gap-6 md-9:w-full">
           <p className="md-5:text-sm md-7:text-xs">
             A história começa assim, blablabl. Lorem ipsum dolor sit amet,
             consectetur adipiscing elit. Ut nec auctor purus. Cras bibendum
@@ -25,13 +25,13 @@ export const About = () => {
             metus, lobortis vel felis in, tristique sollicitudin ligula.
           </p>
         </div>
-        <div className="md-9:w-full flex w-1/2 items-center justify-center">
+        <div className="flex w-1/2 items-center justify-center md-9:w-full">
           <Image
             alt=""
             src="/donizete.png"
             width={220}
             height={220}
-            className="md-5:h-72 md-5:w-56 h-96 w-64 object-cover"
+            className="h-96 w-64 object-cover md-5:h-72 md-5:w-56"
           ></Image>
         </div>
       </section>
