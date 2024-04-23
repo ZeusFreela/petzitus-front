@@ -16,22 +16,22 @@ export const Footer = () => {
           ></Image>
         </Link>
         <ul className="flex flex-col items-start justify-center gap-1 p-2 text-black-100 md-5:gap-2 md-5:text-xs">
-          <li>
+          <li className="border-b-2 border-t-2 border-white-100 duration-300 hover:rounded hover:border-b-black-100">
             <Link href="#">
               A <strong>Organização</strong>
             </Link>
           </li>
-          <li>
+          <li className="border-b-2 border-t-2 border-white-100 duration-300 hover:rounded hover:border-b-black-100">
             <Link href="/seja-voluntario">
               Quero ser <strong>Voluntário</strong>
             </Link>
           </li>
-          <li>
+          <li className="border-b-2 border-t-2 border-white-100 duration-300 hover:rounded hover:border-b-black-100">
             <Link href="/quero-doar">
               Quero <strong>Doar</strong>
             </Link>
           </li>
-          <li>
+          <li className="border-b-2 border-t-2 border-white-100 duration-300 hover:rounded hover:border-b-black-100">
             <Link href="/quero-adotar">
               Quero <strong>Adotar</strong>
             </Link>

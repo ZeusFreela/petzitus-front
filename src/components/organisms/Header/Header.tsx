@@ -15,16 +15,16 @@ export const Header = () => {
         ></Image>
       </Link>
       <ul className="flex items-center justify-center gap-4 text-sm font-normal md-5:text-xs md-9:flex-col">
-        <li>
+        <li className="border-b-2 border-t-2 border-primary duration-300 hover:rounded hover:border-b-white-100">
           <Link href="#">A Organização</Link>
         </li>
-        <li>
+        <li className="border-b-2 border-t-2 border-primary duration-300 hover:rounded hover:border-b-white-100">
           <Link href="seja-voluntario">Quero ser Voluntário(a)</Link>
         </li>
-        <li>
+        <li className="border-b-2 border-t-2 border-primary duration-300 hover:rounded hover:border-b-white-100">
           <Link href="/quero-doar">Quero Doar</Link>
         </li>
-        <li>
+        <li className="duration-300 hover:scale-105">
           <Link
             href="/quero-adotar"
             className="bg-secondary p-4 text-sm text-black-100 md-5:p-3 md-5:text-xs"
