@@ -16,3 +16,7 @@ export interface InputProps {
 export interface InputAdoptFormProps {
   placeholder: string
 }
+
+export interface handleOpenAndCloseModalProps {
+  handleOpenAndCloseModal: () => void
+}

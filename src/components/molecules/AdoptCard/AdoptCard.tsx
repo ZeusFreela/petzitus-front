@@ -6,9 +6,10 @@ import React, { useState } from 'react'
 export const AdoptCard = () => {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
-  const handleButtonClick = () => {
+  const handleOpenAndCloseModal = () => {
     setIsModalOpen(!isModalOpen)
   }
+
   return (
     <section className="flex items-center justify-center gap-2 rounded-2xl bg-white-100 md-10:flex-col md-10:rounded-3xl">
       <Image
@@ -29,13 +30,15 @@ export const AdoptCard = () => {
           <li>Características: Bem ativo e carinhoso</li>
         </ul>
         <button
-          onClick={handleButtonClick}
+          onClick={handleOpenAndCloseModal}
           className="cursor-pointer rounded border-2 border-secondary bg-secondary p-1 font-semibold duration-300 hover:scale-105 md-9:text-sm"
         >
           Quero adotar!
         </button>
       </div>
-      {isModalOpen && <ModalAdoptCard />}
+      {isModalOpen && (
+        <ModalAdoptCard handleOpenAndCloseModal={handleOpenAndCloseModal} />
+      )}
     </section>
   )
 }
